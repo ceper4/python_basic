@@ -9,6 +9,7 @@ favorit_sport = 'football'
 favorit_pet = 'cat'
 countries_visit = 7
 
+
 print(first_name, type(first_name))
 print(family_name, type(family_name))
 print(nationalty, type(nationalty))
