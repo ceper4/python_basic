@@ -26,5 +26,5 @@ elif math_operation == "**":
     result = (x ** y)
 
 else:
-    print("Error! Please, use x,-,/, ** or + next time!")
+    print("Error! Please, use numbers and math operations as : x,-,/, ** or + next time!")
 print (f"Result is: {result}")
