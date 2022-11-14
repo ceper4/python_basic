@@ -8,9 +8,7 @@ try:
 except: y = float(y)
 math_operation = input("Choose the math operation: *,-,/,+, ** :  ")
 result = 0
-try:
-    result == int(result)
-except: result = float(result)
+
 if math_operation == "+":
     result = (x + y)
 
@@ -22,6 +20,7 @@ elif math_operation == "*":
 
 elif math_operation == "-":
     result = (x - y)
+
 elif math_operation == "**":
     result = (x ** y)
 
