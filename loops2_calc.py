@@ -1,4 +1,3 @@
-
 while True:
     x = input("Enter the first number: ")
     if x == "exit":
@@ -18,20 +17,20 @@ while True:
     else:
         y = int(y)
     if math_operation not in ["+","-","*","/", "**"]:
-        print("Error! Choose the math operation please!");
+        print("Error! Choose the math operation please!")
         math_operation = input("Choose the math operation (+, -, *, /, **): ")
     elif math_operation == "+":
-        print(x+y);
+        print(x+y)
     elif math_operation == "-":
-        print(x-y);
+        print(x-y)
     elif math_operation == "*":
-        print(x*y);
+        print(x*y)
     elif math_operation == "/":
         try:
             x/y
         except ZeroDivisionError:
             print("You can't divide by 0")
         else:
-            print(x/y);
+            print(x/y)
     elif math_operation == "**":
-        print(x**y);
+        print(x**y)
