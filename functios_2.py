@@ -1,13 +1,30 @@
-def decor(func_to_decor):
-    print("Tomato")
+# def decor(func_to_decor):
+#     print("Tomato")
+#     def warapper():
+#         print("Cheese")
+#         func_to_decor()
+#     print("Meat")
+#     return warapper
+#
+# @decor
+# def main_func():
+#     print("Bread")
+#
+# main_func()
+def main_decor(func_to_decor):
+    print("Sandwich is:")
     def warapper():
-        print("Cheese")
+        print("Meat")
         func_to_decor()
-    print("Meat")
+        print("Bread")
+
+    print("Tomato")
+
     return warapper
 
-@decor
+@main_decor
 def main_func():
-    print("Bread")
+    print("Cheese")
+
 
 main_func()
