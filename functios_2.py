@@ -1,6 +1,6 @@
 def decor(func_to_decor):
     print("Tomato")
-    def warapper()
+    def warapper():
         print("Cheese")
         func_to_decor()
     print("Meat")
