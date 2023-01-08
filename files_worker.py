@@ -31,7 +31,8 @@ fieldnames = [
     'departure time',
     'destination point',
     'arrival time',
-    'cost ticket']
+    'cost ticket'
+]
 with open('schedule.csv', 'w', newline='') as fh:
     writer = csv.DictWriter(fh, fieldnames=fieldnames)
     writer.writeheader()
