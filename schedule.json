@@ -1,7 +1,23 @@
-{
-    "arrival time": "17:40",
-    "cost ticket": "230$",
-    "departure point": "Frankfurt",
-    "departure time": "18:45",
-    "destination point": "Seoul"
-}
+[
+    {
+        "arrival time": "15:15",
+        "cost ticket": "950$",
+        "departure point": "Borispyl",
+        "departure time": "14:50",
+        "destination point": "Beijing"
+    },
+    {
+        "arrival time": "13:25",
+        "cost ticket": "60$",
+        "departure point": "London",
+        "departure time": "12:10",
+        "destination point": "Paris"
+    },
+    {
+        "arrival time": "17:40",
+        "cost ticket": "230$",
+        "departure point": "Frankfurt",
+        "departure time": "18:45",
+        "destination point": "Seoul"
+    }
+]
