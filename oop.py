@@ -89,7 +89,7 @@ while True:
             Mage = Black('Mage', 17, 10, 1)
             if check == army:
                 break
-    elif choose == 'Blue':
+    elif choose == 'White':
         if unit_choice == 'Knight':
             Knight = White('Knight', 10, 25, 4)
             if check == army:
@@ -113,7 +113,7 @@ while War:
     if choose == 'Black':
         for el in Black.item_black:
             enemy = random.choice(White.item_white)
-            el.do_attack(enemy)
+            el.attack(enemy)
             enemy.death()
             print(f'White team unit > {White.population}')
             if White.population == 0:
@@ -123,7 +123,7 @@ while War:
     else:
         for el in White.item_white:
             enemy = random.choice(Black.item_black)
-            el.do_attack(enemy)
+            el.attack(enemy)
             enemy.death()
             print(f'Black team unit > {Black.population}')
             if Black.population == 0:
